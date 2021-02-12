@@ -24,8 +24,9 @@ h1, h2, h3, h4, h5 {
 
 /* Opacità */
 .opacity {
+    width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0,0.2);
+    background-color: rgba(0, 0, 0,0.2);
     border-radius: 20px;
 }
 
@@ -91,10 +92,34 @@ nav ul li:hover {
     margin-bottom: 30px;
 }
 
+.imgtable1 {
+    height: 50%;
+    background-image: url(../img/img-1.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.imgtablecentral {
+    height: 50%;
+    background-image: url(../img/img-2.jpg);
+    background-position: center;
+    border-radius: 20px;
+    background-size: 133%;
+
+}
+
+.imgtable2 {
+    height: 50%;
+    background-image: url(../img/img-3.jpg);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-position: center;
+    background-size: 130%;
+}
+
 .table .colonne .colon {
     width: 25%;
     float: left;
-    background-color: lightblue;
     margin-bottom: 15px;
     height: 600px;
 }
@@ -102,15 +127,19 @@ nav ul li:hover {
 
 .table .colonne .central {
     width: 46%;
-    /* height: 87%; */
     float: left;
-    background-color: lightblue;
     margin: 0 2%;
 }
 
 /* Footer */
 footer {
     height: 80px;
-    background-color: purple;
     margin-top: 10px;
+    text-align: center;
+    color: #000;
+}
+
+.heart {
+    color: red;
+    font-size: 25px;
 }
