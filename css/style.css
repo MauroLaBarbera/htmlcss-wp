@@ -131,6 +131,10 @@ nav ul li:hover {
     margin: 0 2%;
 }
 
+.colon h3 {
+    padding: 15px 0;
+}
+
 /* Footer */
 footer {
     height: 80px;
