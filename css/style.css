@@ -1,0 +1,86 @@
+/* Sintassi standard */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #858585;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+}
+
+/* Clearfix */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* logo */
+header img {
+    margin-bottom: 20px;
+}
+/* Navbar top */
+nav ul li{
+    display: inline-block;
+    font-size: 18px;
+    color: #858585;
+    margin-right: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+nav ul li:hover {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Top Section */
+.topsection {  
+    height: 600px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    margin-bottom: 15px;
+}   
+
+/* Table */
+
+.table > h2 {
+    height: 50px;
+    background-color: lightblue;
+    margin-bottom: 15px;
+}
+
+.table .colonne .colon {
+    width: 25%;
+    float: left;
+    background-color: lightblue;
+    margin-bottom: 15px;
+    height: 600px;
+}
+
+
+.table .colonne .central {
+    width: 46%;
+    /* height: 87%; */
+    float: left;
+    background-color: lightblue;
+    margin: 0 2%;
+}
+
+/* Footer */
+footer {
+    height: 80px;
+    background-color: purple;
+    margin-top: 10px;
+}
