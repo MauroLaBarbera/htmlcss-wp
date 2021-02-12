@@ -9,11 +9,18 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #858585;
 }
-
+/* UTILITIES */
 .container {
     width: 1200px;
     max-width: 100%;
     margin: auto;
+}
+
+/* Opacità */
+.opacity {
+    height: 100%;
+    background: rgba(0, 0, 0,0.2);
+    border-radius: 20px;
 }
 
 /* Clearfix */
@@ -47,11 +54,12 @@ nav ul li:hover {
 .topsection {  
     height: 600px;
     border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.8);
     background-image: url(../img/banner.jpg);
     background-position: center;
     margin-bottom: 15px;
 }   
+
+
 
 /* Table */
 
